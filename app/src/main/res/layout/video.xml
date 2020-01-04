@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="top|center">
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:ems="13"
+		android:singleLine="true"
+		android:layout_marginTop="15dp"
+		android:hint="输入链接地址"
+		android:id="@+id/videoEditText1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="开始解析"
+		android:textStyle="bold"
+		android:id="@+id/videoButton1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="为了防止软件被查杀失效，请长按上方按钮添加开发QQ获取最新版本信息。 ––菠菜网络传媒  我们一直用心在做。"
+		android:textStyle="bold"
+		android:layout_marginTop="5dp"/>
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<cn.jzvd.JZVideoPlayerStandard
+			android:layout_width="match_parent"
+			android:layout_height="250dp"
+			android:id="@+id/videoplay"/>
+
+		<com.Bc.ks.download.MyImageView
+			android:id="@+id/videoTextView1"
+			android:layout_width="match_parent"
+			android:layout_height="250dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="Button"
+			android:layout_marginTop="255dp"
+			android:id="@+id/videoButton2"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

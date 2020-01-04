@@ -1,0 +1,12 @@
+# view res/layout/video.xml #generated:36
+-keep class cn.jzvd.JZVideoPlayerStandard { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.Bc.ks.download.MainActivity { <init>(...); }
+
+# view res/layout/video.xml #generated:41
+-keep class com.Bc.ks.download.MyImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.Bc.ks.download.VideoActivity { <init>(...); }
+
